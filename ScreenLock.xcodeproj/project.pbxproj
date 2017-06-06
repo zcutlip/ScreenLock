@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926817031EE74FA5003A26B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817021EE74FA5003A26B5 /* AppDelegate.m */; };
+		926817061EE74FA5003A26B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817051EE74FA5003A26B5 /* main.m */; };
+		926817091EE74FA5003A26B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817081EE74FA5003A26B5 /* ViewController.m */; };
+		9268170B1EE74FA5003A26B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9268170A1EE74FA5003A26B5 /* Assets.xcassets */; };
+		9268170E1EE74FA5003A26B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268170C1EE74FA5003A26B5 /* Main.storyboard */; };
+		926817191EE74FA5003A26B5 /* ScreenLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817181EE74FA5003A26B5 /* ScreenLockTests.m */; };
+		926817241EE74FA5003A26B5 /* ScreenLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817231EE74FA5003A26B5 /* ScreenLockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		926817151EE74FA5003A26B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926816F61EE74FA5003A26B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926816FD1EE74FA5003A26B5;
+			remoteInfo = ScreenLock;
+		};
+		926817201EE74FA5003A26B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926816F61EE74FA5003A26B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926816FD1EE74FA5003A26B5;
+			remoteInfo = ScreenLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		926816FE1EE74FA5003A26B5 /* ScreenLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926817011EE74FA5003A26B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		926817021EE74FA5003A26B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		926817051EE74FA5003A26B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926817071EE74FA5003A26B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		926817081EE74FA5003A26B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9268170A1EE74FA5003A26B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9268170D1EE74FA5003A26B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9268170F1EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926817141EE74FA5003A26B5 /* ScreenLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		926817181EE74FA5003A26B5 /* ScreenLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockTests.m; sourceTree = "<group>"; };
+		9268171A1EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9268171F1EE74FA5003A26B5 /* ScreenLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		926817231EE74FA5003A26B5 /* ScreenLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockUITests.m; sourceTree = "<group>"; };
+		926817251EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926816FB1EE74FA5003A26B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926817111EE74FA5003A26B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268171C1EE74FA5003A26B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926816F51EE74FA5003A26B5 = {
+			isa = PBXGroup;
+			children = (
+				926817001EE74FA5003A26B5 /* ScreenLock */,
+				926817171EE74FA5003A26B5 /* ScreenLockTests */,
+				926817221EE74FA5003A26B5 /* ScreenLockUITests */,
+				926816FF1EE74FA5003A26B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926816FF1EE74FA5003A26B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926816FE1EE74FA5003A26B5 /* ScreenLock.app */,
+				926817141EE74FA5003A26B5 /* ScreenLockTests.xctest */,
+				9268171F1EE74FA5003A26B5 /* ScreenLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926817001EE74FA5003A26B5 /* ScreenLock */ = {
+			isa = PBXGroup;
+			children = (
+				926817011EE74FA5003A26B5 /* AppDelegate.h */,
+				926817021EE74FA5003A26B5 /* AppDelegate.m */,
+				926817071EE74FA5003A26B5 /* ViewController.h */,
+				926817081EE74FA5003A26B5 /* ViewController.m */,
+				9268170A1EE74FA5003A26B5 /* Assets.xcassets */,
+				9268170C1EE74FA5003A26B5 /* Main.storyboard */,
+				9268170F1EE74FA5003A26B5 /* Info.plist */,
+				926817041EE74FA5003A26B5 /* Supporting Files */,
+			);
+			path = ScreenLock;
+			sourceTree = "<group>";
+		};
+		926817041EE74FA5003A26B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				926817051EE74FA5003A26B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		926817171EE74FA5003A26B5 /* ScreenLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				926817181EE74FA5003A26B5 /* ScreenLockTests.m */,
+				9268171A1EE74FA5003A26B5 /* Info.plist */,
+			);
+			path = ScreenLockTests;
+			sourceTree = "<group>";
+		};
+		926817221EE74FA5003A26B5 /* ScreenLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				926817231EE74FA5003A26B5 /* ScreenLockUITests.m */,
+				926817251EE74FA5003A26B5 /* Info.plist */,
+			);
+			path = ScreenLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926816FD1EE74FA5003A26B5 /* ScreenLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926817281EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLock" */;
+			buildPhases = (
+				926816FA1EE74FA5003A26B5 /* Sources */,
+				926816FB1EE74FA5003A26B5 /* Frameworks */,
+				926816FC1EE74FA5003A26B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenLock;
+			productName = ScreenLock;
+			productReference = 926816FE1EE74FA5003A26B5 /* ScreenLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		926817131EE74FA5003A26B5 /* ScreenLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9268172B1EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLockTests" */;
+			buildPhases = (
+				926817101EE74FA5003A26B5 /* Sources */,
+				926817111EE74FA5003A26B5 /* Frameworks */,
+				926817121EE74FA5003A26B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926817161EE74FA5003A26B5 /* PBXTargetDependency */,
+			);
+			name = ScreenLockTests;
+			productName = ScreenLockTests;
+			productReference = 926817141EE74FA5003A26B5 /* ScreenLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9268171E1EE74FA5003A26B5 /* ScreenLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9268172E1EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLockUITests" */;
+			buildPhases = (
+				9268171B1EE74FA5003A26B5 /* Sources */,
+				9268171C1EE74FA5003A26B5 /* Frameworks */,
+				9268171D1EE74FA5003A26B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926817211EE74FA5003A26B5 /* PBXTargetDependency */,
+			);
+			name = ScreenLockUITests;
+			productName = ScreenLockUITests;
+			productReference = 9268171F1EE74FA5003A26B5 /* ScreenLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926816F61EE74FA5003A26B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zachary Cutlip";
+				TargetAttributes = {
+					926816FD1EE74FA5003A26B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					926817131EE74FA5003A26B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 926816FD1EE74FA5003A26B5;
+					};
+					9268171E1EE74FA5003A26B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 926816FD1EE74FA5003A26B5;
+					};
+				};
+			};
+			buildConfigurationList = 926816F91EE74FA5003A26B5 /* Build configuration list for PBXProject "ScreenLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926816F51EE74FA5003A26B5;
+			productRefGroup = 926816FF1EE74FA5003A26B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926816FD1EE74FA5003A26B5 /* ScreenLock */,
+				926817131EE74FA5003A26B5 /* ScreenLockTests */,
+				9268171E1EE74FA5003A26B5 /* ScreenLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926816FC1EE74FA5003A26B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9268170B1EE74FA5003A26B5 /* Assets.xcassets in Resources */,
+				9268170E1EE74FA5003A26B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926817121EE74FA5003A26B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268171D1EE74FA5003A26B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926816FA1EE74FA5003A26B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926817091EE74FA5003A26B5 /* ViewController.m in Sources */,
+				926817061EE74FA5003A26B5 /* main.m in Sources */,
+				926817031EE74FA5003A26B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926817101EE74FA5003A26B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926817191EE74FA5003A26B5 /* ScreenLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268171B1EE74FA5003A26B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926817241EE74FA5003A26B5 /* ScreenLockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		926817161EE74FA5003A26B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926816FD1EE74FA5003A26B5 /* ScreenLock */;
+			targetProxy = 926817151EE74FA5003A26B5 /* PBXContainerItemProxy */;
+		};
+		926817211EE74FA5003A26B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926816FD1EE74FA5003A26B5 /* ScreenLock */;
+			targetProxy = 926817201EE74FA5003A26B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9268170C1EE74FA5003A26B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9268170D1EE74FA5003A26B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926817261EE74FA5003A26B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		926817271EE74FA5003A26B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		926817291EE74FA5003A26B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9268172A1EE74FA5003A26B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9268172C1EE74FA5003A26B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenLock.app/Contents/MacOS/ScreenLock";
+			};
+			name = Debug;
+		};
+		9268172D1EE74FA5003A26B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenLock.app/Contents/MacOS/ScreenLock";
+			};
+			name = Release;
+		};
+		9268172F1EE74FA5003A26B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenLock;
+			};
+			name = Debug;
+		};
+		926817301EE74FA5003A26B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926816F91EE74FA5003A26B5 /* Build configuration list for PBXProject "ScreenLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926817261EE74FA5003A26B5 /* Debug */,
+				926817271EE74FA5003A26B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926817281EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926817291EE74FA5003A26B5 /* Debug */,
+				9268172A1EE74FA5003A26B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9268172B1EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9268172C1EE74FA5003A26B5 /* Debug */,
+				9268172D1EE74FA5003A26B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9268172E1EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9268172F1EE74FA5003A26B5 /* Debug */,
+				926817301EE74FA5003A26B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926816F61EE74FA5003A26B5 /* Project object */;
+}
