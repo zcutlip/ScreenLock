@@ -11,9 +11,9 @@
 		926817061EE74FA5003A26B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817051EE74FA5003A26B5 /* main.m */; };
 		926817091EE74FA5003A26B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817081EE74FA5003A26B5 /* ViewController.m */; };
 		9268170B1EE74FA5003A26B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9268170A1EE74FA5003A26B5 /* Assets.xcassets */; };
-		9268170E1EE74FA5003A26B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268170C1EE74FA5003A26B5 /* Main.storyboard */; };
 		926817191EE74FA5003A26B5 /* ScreenLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817181EE74FA5003A26B5 /* ScreenLockTests.m */; };
 		926817241EE74FA5003A26B5 /* ScreenLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817231EE74FA5003A26B5 /* ScreenLockUITests.m */; };
+		926817401EE76277003A26B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9268173F1EE76277003A26B5 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		926817071EE74FA5003A26B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		926817081EE74FA5003A26B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9268170A1EE74FA5003A26B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9268170D1EE74FA5003A26B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9268170F1EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926817141EE74FA5003A26B5 /* ScreenLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		926817181EE74FA5003A26B5 /* ScreenLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockTests.m; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		9268171F1EE74FA5003A26B5 /* ScreenLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		926817231EE74FA5003A26B5 /* ScreenLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockUITests.m; sourceTree = "<group>"; };
 		926817251EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9268173F1EE76277003A26B5 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		926816F51EE74FA5003A26B5 = {
 			isa = PBXGroup;
 			children = (
+				9268173F1EE76277003A26B5 /* MainMenu.xib */,
 				926817001EE74FA5003A26B5 /* ScreenLock */,
 				926817171EE74FA5003A26B5 /* ScreenLockTests */,
 				926817221EE74FA5003A26B5 /* ScreenLockUITests */,
@@ -104,7 +105,6 @@
 				926817071EE74FA5003A26B5 /* ViewController.h */,
 				926817081EE74FA5003A26B5 /* ViewController.m */,
 				9268170A1EE74FA5003A26B5 /* Assets.xcassets */,
-				9268170C1EE74FA5003A26B5 /* Main.storyboard */,
 				9268170F1EE74FA5003A26B5 /* Info.plist */,
 				926817041EE74FA5003A26B5 /* Supporting Files */,
 			);
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9268170B1EE74FA5003A26B5 /* Assets.xcassets in Resources */,
-				9268170E1EE74FA5003A26B5 /* Main.storyboard in Resources */,
+				926817401EE76277003A26B5 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,17 +305,6 @@
 			targetProxy = 926817201EE74FA5003A26B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9268170C1EE74FA5003A26B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9268170D1EE74FA5003A26B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		926817261EE74FA5003A26B5 /* Debug */ = {
@@ -414,6 +403,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ScreenLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -426,6 +416,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ScreenLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -500,6 +491,7 @@
 				9268172A1EE74FA5003A26B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9268172B1EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLockTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +500,7 @@
 				9268172D1EE74FA5003A26B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9268172E1EE74FA5003A26B5 /* Build configuration list for PBXNativeTarget "ScreenLockUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +509,7 @@
 				926817301EE74FA5003A26B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
