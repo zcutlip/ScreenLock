@@ -14,6 +14,9 @@
 		926817191EE74FA5003A26B5 /* ScreenLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817181EE74FA5003A26B5 /* ScreenLockTests.m */; };
 		926817241EE74FA5003A26B5 /* ScreenLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817231EE74FA5003A26B5 /* ScreenLockUITests.m */; };
 		926817401EE76277003A26B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9268173F1EE76277003A26B5 /* MainMenu.xib */; };
+		92C3FF9D1EEF4A5B000CBC87 /* ScreenLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3FF9C1EEF4A5B000CBC87 /* ScreenLockController.m */; };
+		92C3FFA01EEF4DF0000CBC87 /* ScreenLocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3FF9F1EEF4DF0000CBC87 /* ScreenLocker.m */; };
+		92C3FFA31EEF5280000CBC87 /* login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3FFA21EEF5280000CBC87 /* login.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,11 @@
 		926817231EE74FA5003A26B5 /* ScreenLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockUITests.m; sourceTree = "<group>"; };
 		926817251EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9268173F1EE76277003A26B5 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		92C3FF9B1EEF4A5B000CBC87 /* ScreenLockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLockController.h; sourceTree = "<group>"; };
+		92C3FF9C1EEF4A5B000CBC87 /* ScreenLockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenLockController.m; sourceTree = "<group>"; };
+		92C3FF9E1EEF4DF0000CBC87 /* ScreenLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLocker.h; sourceTree = "<group>"; };
+		92C3FF9F1EEF4DF0000CBC87 /* ScreenLocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenLocker.m; sourceTree = "<group>"; };
+		92C3FFA21EEF5280000CBC87 /* login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = login.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks/login.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C3FFA31EEF5280000CBC87 /* login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,7 @@
 				926817171EE74FA5003A26B5 /* ScreenLockTests */,
 				926817221EE74FA5003A26B5 /* ScreenLockUITests */,
 				926816FF1EE74FA5003A26B5 /* Products */,
+				92C3FFA11EEF527F000CBC87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +110,13 @@
 		926817001EE74FA5003A26B5 /* ScreenLock */ = {
 			isa = PBXGroup;
 			children = (
+				92C3FF9E1EEF4DF0000CBC87 /* ScreenLocker.h */,
+				92C3FF9F1EEF4DF0000CBC87 /* ScreenLocker.m */,
 				926817011EE74FA5003A26B5 /* AppDelegate.h */,
 				926817021EE74FA5003A26B5 /* AppDelegate.m */,
 				926817071EE74FA5003A26B5 /* ViewController.h */,
+				92C3FF9B1EEF4A5B000CBC87 /* ScreenLockController.h */,
+				92C3FF9C1EEF4A5B000CBC87 /* ScreenLockController.m */,
 				926817081EE74FA5003A26B5 /* ViewController.m */,
 				9268170A1EE74FA5003A26B5 /* Assets.xcassets */,
 				9268170F1EE74FA5003A26B5 /* Info.plist */,
@@ -135,6 +149,14 @@
 				926817251EE74FA5003A26B5 /* Info.plist */,
 			);
 			path = ScreenLockUITests;
+			sourceTree = "<group>";
+		};
+		92C3FFA11EEF527F000CBC87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C3FFA21EEF5280000CBC87 /* login.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +293,9 @@
 			files = (
 				926817091EE74FA5003A26B5 /* ViewController.m in Sources */,
 				926817061EE74FA5003A26B5 /* main.m in Sources */,
+				92C3FF9D1EEF4A5B000CBC87 /* ScreenLockController.m in Sources */,
 				926817031EE74FA5003A26B5 /* AppDelegate.m in Sources */,
+				92C3FFA01EEF4DF0000CBC87 /* ScreenLocker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +428,10 @@
 				INFOPLIST_FILE = ScreenLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-F",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -417,6 +445,10 @@
 				INFOPLIST_FILE = ScreenLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-F",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ascendency.ScreenLock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
