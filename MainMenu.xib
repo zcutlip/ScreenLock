@@ -12,21 +12,29 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="p8r-Fi-kTo" customClass="AppDelegate">
+        <customObject id="p8r-Fi-kTo" customClass="AppDelegate"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="9Cy-hh-fxm" customClass="ScreenLockController">
             <connections>
-                <outlet property="statusMenu" destination="CBv-ai-7sf" id="cVt-Lt-f3g"/>
+                <outlet property="statusMenu" destination="CBv-ai-7sf" id="lBt-da-aDY"/>
             </connections>
         </customObject>
-        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="CBv-ai-7sf" userLabel="Status Menu">
             <items>
+                <menuItem title="Lock Scren" id="KFK-Ng-gDv">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="lockScreenClicked:" target="9Cy-hh-fxm" id="jiM-cz-sgK"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" id="GRI-7z-ebX">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicked:" target="p8r-Fi-kTo" id="1Et-ph-Xwx"/>
+                        <action selector="quitClicked:" target="9Cy-hh-fxm" id="16U-CY-gdM"/>
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="10.5" y="-2.5"/>
         </menu>
     </objects>
 </document>
