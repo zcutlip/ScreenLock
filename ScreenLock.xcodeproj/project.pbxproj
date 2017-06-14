@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9256E9461EF0857A00D5B0BD /* ScreenLockServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9256E9451EF0857A00D5B0BD /* ScreenLockServiceController.m */; };
 		926817031EE74FA5003A26B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817021EE74FA5003A26B5 /* AppDelegate.m */; };
 		926817061EE74FA5003A26B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817051EE74FA5003A26B5 /* main.m */; };
-		926817091EE74FA5003A26B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817081EE74FA5003A26B5 /* ViewController.m */; };
 		9268170B1EE74FA5003A26B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9268170A1EE74FA5003A26B5 /* Assets.xcassets */; };
 		926817191EE74FA5003A26B5 /* ScreenLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817181EE74FA5003A26B5 /* ScreenLockTests.m */; };
 		926817241EE74FA5003A26B5 /* ScreenLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926817231EE74FA5003A26B5 /* ScreenLockUITests.m */; };
@@ -37,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9256E9441EF0857A00D5B0BD /* ScreenLockServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLockServiceController.h; sourceTree = "<group>"; };
+		9256E9451EF0857A00D5B0BD /* ScreenLockServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenLockServiceController.m; sourceTree = "<group>"; };
 		926816FE1EE74FA5003A26B5 /* ScreenLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926817011EE74FA5003A26B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		926817021EE74FA5003A26B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		926817051EE74FA5003A26B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		926817071EE74FA5003A26B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		926817081EE74FA5003A26B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9268170A1EE74FA5003A26B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9268170F1EE74FA5003A26B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926817141EE74FA5003A26B5 /* ScreenLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,10 +114,10 @@
 				92C3FF9F1EEF4DF0000CBC87 /* ScreenLocker.m */,
 				926817011EE74FA5003A26B5 /* AppDelegate.h */,
 				926817021EE74FA5003A26B5 /* AppDelegate.m */,
-				926817071EE74FA5003A26B5 /* ViewController.h */,
 				92C3FF9B1EEF4A5B000CBC87 /* ScreenLockController.h */,
 				92C3FF9C1EEF4A5B000CBC87 /* ScreenLockController.m */,
-				926817081EE74FA5003A26B5 /* ViewController.m */,
+				9256E9441EF0857A00D5B0BD /* ScreenLockServiceController.h */,
+				9256E9451EF0857A00D5B0BD /* ScreenLockServiceController.m */,
 				9268170A1EE74FA5003A26B5 /* Assets.xcassets */,
 				9268170F1EE74FA5003A26B5 /* Info.plist */,
 				926817041EE74FA5003A26B5 /* Supporting Files */,
@@ -291,8 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926817091EE74FA5003A26B5 /* ViewController.m in Sources */,
 				926817061EE74FA5003A26B5 /* main.m in Sources */,
+				9256E9461EF0857A00D5B0BD /* ScreenLockServiceController.m in Sources */,
 				92C3FF9D1EEF4A5B000CBC87 /* ScreenLockController.m in Sources */,
 				926817031EE74FA5003A26B5 /* AppDelegate.m in Sources */,
 				92C3FFA01EEF4DF0000CBC87 /* ScreenLocker.m in Sources */,
