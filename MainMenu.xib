@@ -21,7 +21,7 @@
         </customObject>
         <menu id="CBv-ai-7sf" userLabel="Status Menu">
             <items>
-                <menuItem title="Lock Scren" id="KFK-Ng-gDv">
+                <menuItem title="Lock Screen" id="KFK-Ng-gDv" userLabel="Lock Screen">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="lockScreenClicked:" target="9Cy-hh-fxm" id="jiM-cz-sgK"/>
@@ -34,7 +34,7 @@
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="10.5" y="-2.5"/>
+            <point key="canvasLocation" x="-158" y="-46"/>
         </menu>
     </objects>
 </document>
