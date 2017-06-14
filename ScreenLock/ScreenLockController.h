@@ -10,4 +10,6 @@
 
 @interface ScreenLockController : NSObject
 
+-(void)screenLockService;
+
 @end

@@ -47,4 +47,10 @@ NSImage *icon;
     NSLog(@"Finished setting up status item.\n");
     
 }
+
+-(void)screenLockService
+{
+    [self.screenLocker lockScreen];
+}
+
 @end

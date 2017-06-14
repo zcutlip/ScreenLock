@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 @interface ScreenLockServiceController : NSObject
-
+-(void)screenLockService:(NSPasteboard *)pboard
+                userData:(NSString *)userData
+                   error:(NSString **)error;
 @end

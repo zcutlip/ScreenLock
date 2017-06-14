@@ -30,5 +30,24 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSPortName</key>
+			<string>ScreenLock</string>
+			<key>NSMessage</key>
+			<string>screenLockService</string>
+			<key>NSKeyEquivalent</key>
+			<dict>
+				<key>default</key>
+				<string>^~@m</string>
+			</dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>ScreenLock/Lock Screen</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

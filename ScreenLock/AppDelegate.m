@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ScreenLockServiceController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,10 @@
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-   
+    ScreenLockServiceController *screenLockService;
+    
+    screenLockService=[[ScreenLockServiceController alloc] init];
+    [NSApp setServicesProvider:screenLockService];
     // Insert code here to initialize your application
 }
 

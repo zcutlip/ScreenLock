@@ -7,7 +7,19 @@
 //
 
 #import "ScreenLockServiceController.h"
+#import "ScreenLocker.h"
 
 @implementation ScreenLockServiceController
+
+-(void)screenLockService:(NSPasteboard *)pboard
+                userData:(NSString *)userData
+                   error:(NSString **)error
+{
+    (void)pboard;
+    (void)userData;
+    (void)error;
+
+    [[[ScreenLocker alloc] init]lockScreen];
+}
 
 @end
